@@ -191,3 +191,6 @@ body,.project-row{color:var(--text)}
 
 /* Place the status badge outside the rotating skills orbit on mobile. */
 @media(max-width:700px){.visual-stamp{bottom:-35px}}
+
+/* Ensure the mobile status badge sits clear of the orbit. */
+@media(max-width:700px){.visual-stamp{bottom:-70px}}
