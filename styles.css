@@ -183,3 +183,7 @@ body,.project-row{color:var(--text)}
   .topbar nav a{font-size:7px}
   .hero-visual{--orbit-radius:160px;height:475px;margin-top:72px}
 }
+
+
+/* Keep the status badge clear of the code window footer on phones. */
+@media(max-width:700px){.visual-stamp{bottom:26px}}
