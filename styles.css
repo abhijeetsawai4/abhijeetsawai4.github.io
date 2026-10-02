@@ -187,3 +187,7 @@ body,.project-row{color:var(--text)}
 
 /* Keep the status badge clear of the code window footer on phones. */
 @media(max-width:700px){.visual-stamp{bottom:26px}}
+
+
+/* Place the status badge outside the rotating skills orbit on mobile. */
+@media(max-width:700px){.visual-stamp{bottom:-35px}}
